@@ -1,0 +1,8 @@
+(load "behavior.carp")
+
+(defmodule Time
+
+  (doc "Time primitive.")
+  (sig time (Fn [] (Behavior Time)))
+  (defn time [] (fn [times] times))
+)

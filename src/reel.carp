@@ -1,0 +1,6 @@
+(defproject "title" "Reel"
+            "docs-directory" "doc"
+            "search-path" "src")
+
+(defmodule Reel
+  (load "Types.carp"))

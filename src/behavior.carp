@@ -1,0 +1,9 @@
+(load "time.carp")
+(use Base)
+
+(defmodule Behavior
+  (deftype (Behavior a) (Fn [(Array Time)] (Array a)))
+ 
+  (sig at [(Behavior a) Time Time] a)
+  (defn at [behavior time time])
+)

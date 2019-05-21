@@ -1,0 +1,6 @@
+(defmodule Types
+  (defmacro Time [] 
+    (list Double))
+  (deftype (Behavior a) (Fn [Time] a))
+  (deftype (Event a) (Fn [Time] (Maybe a)))
+)
